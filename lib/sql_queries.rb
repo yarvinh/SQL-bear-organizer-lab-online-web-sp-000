@@ -21,7 +21,7 @@ end
 
 def selects_most_prominent_color_and_returns_with_count
   "SELECT color, COUNT(column) AS MOST_FREQUENT
-FROM TABLE_NAME
+FROM bears
 GROUP BY color
 ORDER BY COUNT(color) DESC"
 end
