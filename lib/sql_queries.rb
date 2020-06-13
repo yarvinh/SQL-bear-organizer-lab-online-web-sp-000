@@ -23,7 +23,7 @@ def selects_most_prominent_color_and_returns_with_count
   "SELECT color, COUNT(color) AS MOST_FREQUENT
 FROM bears
 
-ORDER BY COUNT(color) MAX"
+ORDER BY COUNT(color) MAX(color)"
 end
 
 def counts_number_of_bears_with_goofy_temperaments
